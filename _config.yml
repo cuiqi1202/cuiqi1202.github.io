@@ -24,7 +24,7 @@ repository               : "cuiqi1202/cuiqi1202.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "flowers.png"
   name             : "崔祺 Cui Qi"
   pronouns         : # example: "she/her"  
   bio              : "电气工程师。在工程的世界里，持续寻找值得长期投入的问题。"

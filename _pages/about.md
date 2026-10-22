@@ -28,12 +28,11 @@ redirect_from:
 
     <figure class="home-portrait">
       <div class="home-portrait__frame">
-        <img src="{{ '/images/profile.jpg' | relative_url }}" alt="崔祺的照片" width="1242" height="1242" fetchpriority="high">
+        <img src="{{ '/images/flowers.png' | relative_url }}" alt="盛开的白色雏菊" width="736" height="736" fetchpriority="high">
       </div>
-      <img class="home-portrait__flower" src="{{ '/images/flowers.png' | relative_url }}" alt="" width="736" height="736" aria-hidden="true">
       <figcaption>
         <span>崔祺</span>
-        <span>Curious by nature.</span>
+        <span>Flowers & quiet progress.</span>
       </figcaption>
     </figure>
   </section>

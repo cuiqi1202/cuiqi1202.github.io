@@ -331,7 +331,7 @@ html[data-theme="dark"] .home-hero {
   margin: 0 auto;
   overflow: hidden;
   border: 9px solid rgba(255, 250, 242, 0.78);
-  border-radius: 46% 46% 26px 26px;
+  border-radius: 44% 44% 28px 28px;
   box-shadow: 0 20px 50px rgba(73, 51, 36, 0.18);
 }
 
@@ -342,23 +342,9 @@ html[data-theme="dark"] .home-portrait__frame {
 .home-portrait__frame img {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1.08;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  object-position: center top;
-}
-
-.home-portrait__flower {
-  position: absolute;
-  bottom: 2.8rem;
-  left: -1.6rem;
-  width: 8.5rem;
-  height: 8.5rem;
-  padding: 0.35rem;
-  border: 6px solid #fffaf2;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 12px 30px rgba(73, 51, 36, 0.18);
-  transform: rotate(-7deg);
+  object-position: center;
 }
 
 .home-portrait figcaption {
@@ -1024,10 +1010,6 @@ html[data-theme="dark"] .home-portrait__frame {
     margin: 0 auto;
   }
 
-  .home-portrait__flower {
-    left: -0.5rem;
-  }
-
   .home-intro__grid,
   .profile-section {
     grid-template-columns: 1fr;
@@ -1075,11 +1057,6 @@ html[data-theme="dark"] .home-portrait__frame {
 
   .home-facts {
     gap: 0.8rem;
-  }
-
-  .home-portrait__flower {
-    width: 6.6rem;
-    height: 6.6rem;
   }
 
   .section-heading--split {
