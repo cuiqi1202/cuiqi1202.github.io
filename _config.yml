@@ -10,10 +10,10 @@
 locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "CuiQi's Personal Website"
-masthead_title           : "崔祺"
+masthead_title           : "Cui Qi."
 title_separator          : "|"
-name                     : &name "崔祺 · Cui Qi"
-description              : &description "电气工程师崔祺的个人网站，记录工作、项目与持续学习。"
+name                     : &name "Cui Qi"
+description              : &description "Cui Qi's personal website and blog."
 url                      : https://cuiqi1202.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -25,11 +25,11 @@ repository               : "cuiqi1202/cuiqi1202.github.io"
 author:
   # Biographic information
   avatar           : "flowers.png"
-  name             : "崔祺 Cui Qi"
+  name             : "Cui Qi"
   pronouns         : # example: "she/her"  
-  bio              : "电气工程师。在工程的世界里，持续寻找值得长期投入的问题。"
-  location         : "浙江 · 宁波"
-  employer         : "宁波中集物流装备有限公司"
+  bio              : # Optional short biography
+  location         : # Optional location
+  employer         : # Optional employer
   uri              : # URL
   email            : "3387229147@qq.com" 
 
@@ -145,12 +145,12 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : flowers.png   # Social media default site image (lives in /images/)
-og_description           : "崔祺的个人网站，记录电气工程、工作项目与持续学习。"
+og_description           : "Cui Qi's personal website and blog."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
-  name                   : "崔祺 Cui Qi"
+  name                   : "Cui Qi"
   links: # An array of links to social media profiles
     - "https://github.com/cuiqi1202"
 

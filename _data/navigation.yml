@@ -8,14 +8,5 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "项目"
-    url: /portfolio/
-
   - title: "文章"
     url: /year-archive/
-
-  - title: "经历"
-    url: /cv/
-
-  - title: "联系"
-    url: "mailto:3387229147@qq.com"
