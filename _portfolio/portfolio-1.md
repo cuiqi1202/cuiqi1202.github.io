@@ -1,7 +1,15 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "设备电气系统"
+excerpt: "从控制柜、传感器与执行机构入手，理解设备如何感知、判断并行动。这是当前职业方向的结构示例。"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## 关注什么
+
+电气系统并不是孤立的元器件集合。它连接着传感器、执行机构、控制逻辑和现场操作者，也连接着设计意图与真实运行环境。
+
+## 正在形成的方法
+
+从设备的工作流程出发，先理解各环节如何协同，再回到电气原理、控制逻辑与现场现象之间建立对应关系。
+
+> 这是项目方向示例。后续可以补充具体设备、职责、难点、量化结果和现场照片。

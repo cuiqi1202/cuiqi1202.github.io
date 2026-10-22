@@ -7,12 +7,13 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "zh-CN"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Cui Qi"
-title_separator          : "-"
-name                     : &name "Cui Qi's Personal Website"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+title                    : "CuiQi's Personal Website"
+masthead_title           : "崔祺"
+title_separator          : "|"
+name                     : &name "崔祺 · Cui Qi"
+description              : &description "电气工程师崔祺的个人网站，记录工作、项目与持续学习。"
 url                      : https://cuiqi1202.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -23,25 +24,25 @@ repository               : "cuiqi1202/cuiqi1202.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Cui Qi"
+  avatar           : "profile.jpg"
+  name             : "崔祺 Cui Qi"
   pronouns         : # example: "she/her"  
-  bio              : "只是想随便做点什么"
-  location         : "NingBo"
-  employer         : "Red Brick University"
+  bio              : "电气工程师。在工程的世界里，持续寻找值得长期投入的问题。"
+  location         : "浙江 · 宁波"
+  employer         : "宁波中集物流装备有限公司"
   uri              : # URL
   email            : "3387229147@qq.com" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # Google Scholar profile URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # ORCID profile URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # PubMed profile URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -51,13 +52,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "cuiqi1202"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -92,7 +93,7 @@ publication_category:
     title: 'Conference Papers'
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
+teaser                   : flowers.png # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -143,14 +144,15 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           :  # Social media default site image description
+og_image                 : flowers.png   # Social media default site image (lives in /images/)
+og_description           : "崔祺的个人网站，记录电气工程、工作项目与持续学习。"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : Person
+  name                   : "崔祺 Cui Qi"
   links: # An array of links to social media profiles
+    - "https://github.com/cuiqi1202"
 
 
 # Analytics
@@ -244,9 +246,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
+      read_time: false
+      comments: false
+      share: false
       related: true
   # _pages
   - scope:
@@ -302,7 +304,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
