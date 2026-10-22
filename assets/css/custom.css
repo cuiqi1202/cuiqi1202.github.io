@@ -212,9 +212,13 @@ html[data-theme="dark"] .home-hero {
 
 .home-hero h1 {
   margin: 0 0 1.55rem;
-  font-size: clamp(3rem, 6.5vw, 5.7rem);
+  font-size: clamp(2.7rem, 5vw, 4.1rem);
   font-weight: 700;
   line-height: 1.08;
+}
+
+.home-hero h1 span {
+  white-space: nowrap;
 }
 
 .home-hero h1 em {
@@ -948,6 +952,9 @@ html[data-theme="dark"] .home-portrait__frame {
 }
 
 .page__footer {
+  position: relative;
+  bottom: auto;
+  margin-top: 4rem;
   border-top: 1px solid var(--warm-border);
   background: var(--global-footer-bg-color);
 }
@@ -1063,7 +1070,7 @@ html[data-theme="dark"] .home-portrait__frame {
   }
 
   .home-hero h1 {
-    font-size: clamp(2.6rem, 14vw, 4rem);
+    font-size: clamp(2.25rem, 10.5vw, 3.2rem);
   }
 
   .home-facts {

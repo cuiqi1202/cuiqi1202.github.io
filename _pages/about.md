@@ -12,7 +12,7 @@ redirect_from:
   <section class="home-hero" aria-labelledby="home-name">
     <div class="home-hero__copy">
       <p class="eyebrow"><span class="eyebrow__dot"></span>Electrical Engineer · Ningbo</p>
-      <h1 id="home-name">把问题想清楚，<br><em>把工作做扎实。</em></h1>
+      <h1 id="home-name"><span>把问题想清楚，</span><br><em><span>把工作做扎实。</span></em></h1>
       <p class="home-hero__lead">我是崔祺，一名电气工程师。在工程的世界里，持续寻找值得长期投入的问题。</p>
       <p class="home-hero__body">现任职于宁波中集物流装备有限公司。关注物流装备中的电气系统、设备运行与现场问题，也喜欢把复杂的经验整理成清晰、可复用的方法。</p>
       <div class="home-actions">
