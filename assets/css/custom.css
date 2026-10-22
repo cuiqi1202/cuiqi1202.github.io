@@ -89,6 +89,16 @@ a:hover {
   background: transparent;
 }
 
+.greedy-nav .visible-links {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.greedy-nav .masthead__menu-item--lg {
+  margin-right: auto;
+}
+
 .greedy-nav a {
   color: var(--site-muted);
   font-family: var(--site-font);
@@ -152,7 +162,7 @@ a:hover {
 
 .minimal-home__cn {
   display: inline;
-  margin-left: 0.18em;
+  margin-left: 0.25em;
   color: var(--site-soft);
   font-size: 0.62em;
   font-weight: 500;
