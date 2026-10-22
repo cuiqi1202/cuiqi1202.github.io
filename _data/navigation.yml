@@ -8,5 +8,14 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "文章"
+  - title: "Education"
+    url: "#education"
+
+  - title: "Experience"
+    url: "#experience"
+
+  - title: "Contact"
+    url: "#contact"
+
+  - title: "Blog"
     url: /year-archive/

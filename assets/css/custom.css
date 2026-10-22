@@ -134,6 +134,19 @@ a:hover {
   padding: clamp(4rem, 7vw, 5rem) 0 6rem;
 }
 
+.minimal-home__header {
+  margin-bottom: 6rem;
+}
+
+.minimal-home__eyebrow {
+  margin: 0 0 0.85rem;
+  color: var(--site-accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
 .minimal-home h1 {
   margin: 0;
   color: var(--site-ink);
@@ -155,6 +168,85 @@ a:hover {
   font-weight: 500;
   letter-spacing: -0.01em;
   vertical-align: 0.08em;
+}
+
+.profile-section {
+  scroll-margin-top: 115px;
+}
+
+.profile-section + .profile-section {
+  margin-top: 5rem;
+}
+
+.profile-section h2 {
+  margin: 0 0 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid var(--site-line);
+  font-size: 32px;
+  font-weight: 650;
+}
+
+.profile-list {
+  border-bottom: 1px solid var(--site-line);
+}
+
+.profile-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 2rem;
+  align-items: baseline;
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--site-line);
+}
+
+.profile-row:first-child {
+  border-top: 0;
+}
+
+.profile-row h3 {
+  margin: 0 0 0.35rem;
+  font-size: 18px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.profile-row p {
+  margin: 0;
+  color: var(--site-muted);
+  font-size: 15px;
+}
+
+.profile-row__meta {
+  text-align: right;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 44px;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--site-line);
+  border-radius: 5px;
+  color: var(--site-ink) !important;
+  font-size: 14px;
+  text-decoration: none;
+  transition: border-color 160ms ease, background-color 160ms ease;
+}
+
+.contact-link:hover {
+  border-color: #c7d1dd;
+  background: #f7f9fc;
+}
+
+.contact-link i {
+  color: var(--site-muted);
 }
 
 /* Blog archive */
@@ -354,6 +446,27 @@ a:hover {
     display: block;
     margin: 0.55rem 0 0;
     font-size: 0.58em;
+  }
+
+  .minimal-home__header {
+    margin-bottom: 4.5rem;
+  }
+
+  .profile-section + .profile-section {
+    margin-top: 4rem;
+  }
+
+  .profile-section h2 {
+    font-size: 28px;
+  }
+
+  .profile-row {
+    grid-template-columns: 1fr;
+    gap: 0.45rem;
+  }
+
+  .profile-row__meta {
+    text-align: left;
   }
 
   .archive,
