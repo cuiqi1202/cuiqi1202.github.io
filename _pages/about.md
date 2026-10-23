@@ -28,7 +28,7 @@ redirect_from:
         <div>
           <h3>Shandong University Affiliated High School Experimental School</h3>
         </div>
-        <p class="profile-row__meta">Heze, Shandong</p>
+        <p class="profile-row__meta">Heze, China</p>
       </article>
     </div>
   </section>
@@ -40,8 +40,8 @@ redirect_from:
         <div>
           <h3>Ningbo CIMC Logistics Equipment Co., Ltd.</h3>
           <p>Electrical Engineer</p>
-        <p class="profile-row__meta">Ningbo, Zhejiang</p>
         </div>
+        <p class="profile-row__meta">Ningbo, China</p>
       </article>
     </div>
   </section>
