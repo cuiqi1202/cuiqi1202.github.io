@@ -11,7 +11,7 @@ redirect_from:
 <main class="minimal-home">
   <header class="minimal-home__header">
     <p class="minimal-home__eyebrow">Mathematics &amp; Applied Mathematics</p>
-    <h1><span class="minimal-home__en">Cui Qi</span></h1>
+    <h1><span class="minimal-home__en">Cui Qi</span><span class="minimal-home__cn">崔祺</span></h1>
   </header>
 
   <section class="profile-section" id="education" aria-labelledby="education-title">
