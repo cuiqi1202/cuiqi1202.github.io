@@ -40,6 +40,7 @@ redirect_from:
         <div>
           <h3>Ningbo CIMC Logistics Equipment Co., Ltd.</h3>
           <p>Electrical Engineer</p>
+        <p class="profile-row__meta">Ningbo, Zhejiang</p>
         </div>
       </article>
     </div>
