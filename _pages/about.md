@@ -1,7 +1,7 @@
 ---
 permalink: /
 layout: home
-description: "Cui Qi 崔祺的个人网站。"
+description: "Cui Qi's personal website."
 author_profile: false
 redirect_from:
   - /about/
@@ -11,7 +11,7 @@ redirect_from:
 <main class="minimal-home">
   <header class="minimal-home__header">
     <p class="minimal-home__eyebrow">Mathematics &amp; Applied Mathematics</p>
-    <h1><span class="minimal-home__en">Cui Qi</span><span class="minimal-home__cn">崔祺</span></h1>
+    <h1><span class="minimal-home__en">Cui Qi</span></h1>
   </header>
 
   <section class="profile-section" id="education" aria-labelledby="education-title">
@@ -19,16 +19,16 @@ redirect_from:
     <div class="profile-list">
       <article class="profile-row">
         <div>
-          <h3>兰州大学</h3>
-          <p>数学与应用数学</p>
+          <h3>Lanzhou University</h3>
+          <p>Mathematics and Applied Mathematics</p>
         </div>
-        <p class="profile-row__meta">兰州，中国</p>
+        <p class="profile-row__meta">Lanzhou, China</p>
       </article>
       <article class="profile-row">
         <div>
-          <h3>山大附中实验学校</h3>
+          <h3>Shandong University Affiliated High School Experimental School</h3>
         </div>
-        <p class="profile-row__meta">山东菏泽</p>
+        <p class="profile-row__meta">Heze, Shandong</p>
       </article>
     </div>
   </section>
@@ -38,8 +38,8 @@ redirect_from:
     <div class="profile-list">
       <article class="profile-row">
         <div>
-          <h3>宁波中集物流装备有限公司</h3>
-          <p>电气工程师</p>
+          <h3>Ningbo CIMC Logistics Equipment Co., Ltd.</h3>
+          <p>Electrical Engineer</p>
         </div>
       </article>
     </div>

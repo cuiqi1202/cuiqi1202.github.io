@@ -3,7 +3,7 @@
 <header class="masthead site-header">
   <div class="site-header__inner">
     <a class="site-brand" href="{{ base_path }}/">{{ site.masthead_title | default: site.title }}</a>
-    <nav class="site-header__nav" aria-label="主导航">
+    <nav class="site-header__nav" aria-label="Main navigation">
       {% for link in site.data.navigation.main %}
         {% if link.url contains '://' or link.url contains 'mailto:' or link.url contains 'tel:' %}
           {% assign link_url = link.url %}
